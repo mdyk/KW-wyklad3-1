@@ -22,6 +22,7 @@ class TestUnitAnnotations {
     }
 
     @Test
+	@Disabled
     void failingTest() {
         fail("Test nieudany");
     }
