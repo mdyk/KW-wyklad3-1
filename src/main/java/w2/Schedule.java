@@ -17,7 +17,7 @@ public class Schedule {
 
         boolean added = false;
 
-        if(!calendar.isHoliday(term.getTermDate())) {
+        if(calendar.isHoliday(term.getTermDate())) {
             terms.add(term);
             added = true;
         }
