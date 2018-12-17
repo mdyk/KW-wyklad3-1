@@ -1,5 +1,6 @@
 package w2;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
@@ -11,6 +12,7 @@ import static org.mockito.Mockito.*;
 class ScheduleTest {
 
     @Test
+    @Disabled
     void addTerm() {
 
         MyCalendar calendar =mock(MyCalendar.class);
